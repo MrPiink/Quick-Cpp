@@ -27,15 +27,15 @@ func readFile(path string) string {
 
 const msys2DownloadURL = "https://github.com/msys2/msys2-installer/releases/download/2024-07-27/msys2-x86_64-20240727.exe"
 
-var cmakeListsRootContent = readFile("assets/CMakeListsRoot.txt")
+var cmakeListsRootContent = readFile("../assets/CMakeListsRoot.txt")
 
-var cmakePresetsContent = readFile("assets/CMakePresets.json")
+var cmakePresetsContent = readFile("../assets/CMakePresets.json")
 
-var readmeContent = readFile("assets/README.md")
+var readmeContent = readFile("../assets/README.md")
 
-var mainCppContent = readFile("assets/maincpp.txt")
+var mainCppContent = readFile("../assets/maincpp.txt")
 
-var cmakeListsSrcContent = readFile("assets/CMakeListsSrc.txt")
+var cmakeListsSrcContent = readFile("../assets/CMakeListsSrc.txt")
 
 func add_files(projectName string) {
 	os.Chdir(projectName)
