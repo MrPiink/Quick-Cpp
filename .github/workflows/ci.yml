@@ -39,8 +39,8 @@ jobs:
 
       - name: Clean up
         run: |
-          Remove-Item ./internal/TestResults-${{ github.ref_name }}.json
-          Remove-Item qcpp.exe
+          Remove-Item .\TestResults-${{ github.ref_name }}.json
+          Remove-Item .\qcpp.exe
         shell: pwsh
 
       - name: Fetch all tags
