@@ -31,4 +31,4 @@
 
 7. **Windows Compatibility**
 
-- [ ] Allow installation with Chocolatey.
+- [ ] Allow installation with Chocolatey. (https://github.com/MrPiink/Quick-Cpp/releases/download/v0.1.0/Quick-Cpp_0.1.0_windows_amd64.tar.gz)
